@@ -4,4 +4,28 @@ body {
     font-family: "Oswald", Arial, sans-serif;
 }
 
+h1 {
+    padding-top: 5%;
+    color: antiquewhite;
+}
+
+#merry-go-round {
+    width: 100%;
+    position: relative;
+    mix-blend-mode: color-dodge;
+}
+
+.text-align-last-center {
+    text-align-last: center;
+}
+
+li {
+    list-style: none;
+}
+
+#image-background {
+    background-image: url(../images/gig-action.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
