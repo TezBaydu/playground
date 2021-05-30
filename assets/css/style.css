@@ -4,9 +4,16 @@ body {
     font-family: "Oswald", Arial, sans-serif;
 }
 
+/* .navbar-brand {
+    background-image: url(../images/merry-go-round.png);
+} */
+
 h1 {
-    padding-top: 5%;
+    padding: 10%;
     color: antiquewhite;
+    font-size: 200px;
+    text-decoration: underline;
+    mix-blend-mode: difference;
 }
 
 #merry-go-round {
