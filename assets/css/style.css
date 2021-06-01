@@ -16,6 +16,19 @@ h1 {
     mix-blend-mode: difference;
 }
 
+h2 {
+	font-size: 1em;
+	text-align: left;
+}
+
+p {
+	font-size: .9rem;
+}
+
+div {
+	border-radius: 4px;
+}
+
 #merry-go-round {
     width: 100%;
     position: relative;
@@ -56,4 +69,53 @@ li {
 .large-bold {
     font-weight: bold;
     font-size: large;
+}
+
+.card {
+	flex:1; /* */
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow:column;	/* */
+	min-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.card_image {
+	width: 100%;
+}
+
+.bottom_button {
+	display: flex;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	background-color:rgba(129, 187, 201,.85);
+	text-align: center;
+	padding: 1em .75em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.card_bottom {
+	display: flex;
+	flex-flow:column;
+}
+
+.card_head {
+	flex:0;
+}
+
+.card_para {
+	flex:1 0 auto;
+}
+
+#container {
+	display: flex;		/* makes container a flexbox*/
+	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1050px;	
 }
