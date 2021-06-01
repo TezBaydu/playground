@@ -19,4 +19,14 @@ $(document).ready(function() {
         $(".stream3").removeClass('highlight_stream');
         $(".stream3").addClass('highlight_stream');
    });
+
+   $(".card_head").mouseenter(function() {
+    $(".card_head").css("background-color", "red");
+    });
+
+    $(".card_head").mouseleave(function() {
+        $(".card_head").css("background-color", "white");
+    });
 }); 
+
+
