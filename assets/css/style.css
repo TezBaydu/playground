@@ -85,7 +85,24 @@ li {
 	width: 100%;
 }
 
+.card_image_1 {
+	width: 100%;
+}
+
 .bottom_button {
+	display: flex;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	background-color:rgba(129, 187, 201,.85);
+	text-align: center;
+	padding: 1em .75em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.bottom_button_1 {
 	display: flex;
 	box-sizing:border-box;
 	border-radius: 4px;

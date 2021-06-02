@@ -1,7 +1,7 @@
 /* Stream classes not included in html but button click fucntion brings user to top of page anyway */
 
-$(document).ready(function() {
-    $("#stream1_btn").on("click", function() {
+ $(document).ready(function() {
+ /*   $("#stream1_btn").on("click", function() {
         $(".stream1").removeClass('highlight_stream');
         $(".stream2").removeClass('highlight_stream');
         $(".stream3").removeClass('highlight_stream');
@@ -18,7 +18,7 @@ $(document).ready(function() {
         $(".stream2").removeClass('highlight_stream');
         $(".stream3").removeClass('highlight_stream');
         $(".stream3").addClass('highlight_stream');
-   });
+   }); */
 
    $(".card_head").mouseenter(function() {
     $(".card_head").css("background-color", "red");
@@ -28,5 +28,9 @@ $(document).ready(function() {
         $(".card_head").css("background-color", "white");
     });
 }); 
+
+$(".bottom_button_1").click(function() {
+    $(".card_image_1").toggle("slow");
+});
 
 
