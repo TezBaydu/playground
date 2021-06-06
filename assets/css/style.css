@@ -134,11 +134,33 @@ li {
 	flex:1 0 auto;
 }
 
-#container {
+#card-container {
 	display: flex;		/* makes container a flexbox*/
 	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
 	max-width:1050px;	
+}
+
+#video-container {
+    display: flex;		/* makes container a flexbox*/
+    flex-direction: row-reverse;
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1050px;	
+}
+
+.embed-responsive {
+    width: 18rem;
+    height: auto;
+}
+
+.center {
+    place-content: center;
+}
+
+.reverse {
+    flex-flow: wrap-reverse;
 }
