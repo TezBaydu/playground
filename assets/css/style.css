@@ -166,10 +166,11 @@ li {
 }
 
 #maps-frame {
-    height: 100px;
-    width: 50%;
+    height: 400px;
+    width: 100%;
     background-color: black;
     overflow: inherit;
+    border: #fff;
 }
 
 

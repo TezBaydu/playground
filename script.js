@@ -88,4 +88,6 @@ $(".bottom_button").click(function() {
     $(this).siblings(".card_image").toggle("slow");
 })
 
-$('.collapse').collapse();
+$('button').click(function() {
+    $(this).siblings(".card").toggle("slow");
+});
