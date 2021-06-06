@@ -87,3 +87,5 @@ $(".bottom_button_1").click(function() {
 $(".bottom_button").click(function() {
     $(this).siblings(".card_image").toggle("slow");
 })
+
+$('.collapse').collapse();
