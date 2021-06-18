@@ -173,4 +173,9 @@ li {
     border: #fff;
 }
 
+.marker-image {
+    width: 30px;
+    display: inline;
+}
+
 
